@@ -27,12 +27,12 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>nexus</id>
             <name>Internal Releases</name>
             <url>http://3.233.226.113:8081/repository/minutus-release/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>nexus</id>
             <name>Internal Snapshot Releases</name>
             <url>http://3.233.226.113:8081/repository/minutus-snapshot/</url>
         </snapshotRepository>
