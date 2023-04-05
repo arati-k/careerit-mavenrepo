@@ -43,7 +43,7 @@ public class RegistrationController extends HttpServlet {
 	        if(status>0){  
 	        	response.sendRedirect("viewStudents");
 	        }else{  
-	                response.sendRedirect("viewStudents");
+	                out.println("<font color=green>You have successfully registered </font>");
 	        }  
 	          
 	        out.close();  
