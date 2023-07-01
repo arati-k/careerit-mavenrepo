@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>server</id>
             <name>Internal Releases</name>
-            <url>http://3.233.226.113:8081/repository/minutus-release/</url>
+            <url>http://localhost:8081/repository/minutus-release/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>server</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://3.233.226.113:8081/repository/minutus-snapshot/</url>
+            <url>http://localhost:8081/repository/minutus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
